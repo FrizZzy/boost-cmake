@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cc2/Program/boost-test/main.cpp
+iostream
+-
+fstream
+-
+boost/filesystem.hpp
+-
+stdio.h
+-
+sstream
+-
+string
+-
+
